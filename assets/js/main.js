@@ -172,77 +172,7 @@
 
 })(jQuery);
 
-
-
-  $(document).ready(function($){
-
-    if ( $('#portfolio-flters li:first-child()').hasClass('filter-active') ){
-      $('section#portfolio .row.portfolio-container div.portfolio-item:nth-child(n+10)').hide();
-    }
-
-    $("#readMore").click(function () {
-      // $('section#portfolio .row.portfolio-container div.portfolio-item:nth-child(n+10)').css('display','block');
-      $('section#portfolio .row.portfolio-container').removeClass('portfolio-height');
-      $('section#portfolio .row.portfolio-container').css('height','2806px');
-      $('section#portfolio .row.portfolio-container div.portfolio-item:nth-child(n+10):nth-child(-n+13)').css({"top": "756px"});
-      $('section#portfolio .row.portfolio-container div.portfolio-item:nth-child(n+13):nth-child(-n+15)').css({"top": "1020px"});
-      $('section#portfolio .row.portfolio-container div.portfolio-item:nth-child(n+16):nth-child(-n+18)').css({"top": "1275px"});
-      $('section#portfolio .row.portfolio-container div.portfolio-item:nth-child(n+19):nth-child(-n+22)').css({"top": "1530px"});
-      $('section#portfolio .row.portfolio-container div.portfolio-item:nth-child(n+22):nth-child(-n+25)').css({"top": "1785px"});
-      $('section#portfolio .row.portfolio-container div.portfolio-item:nth-child(n+25):nth-child(-n+28)').css({"top": "2040px"});
-      $('section#portfolio .row.portfolio-container div.portfolio-item:nth-child(n+28):nth-child(-n+31)').css({"top": "2295px"});
-      $('section#portfolio .row.portfolio-container div.portfolio-item:nth-child(n+31):nth-child(-n+34)').css({"top": "2550px"});
-      $('section#portfolio .row.portfolio-container div.portfolio-item:nth-child(3n+10)').css({"left": "0px"});
-      $('section#portfolio .row.portfolio-container div.portfolio-item:nth-child(3n+11)').css({"left": "380px"});
-      $('section#portfolio .row.portfolio-container div.portfolio-item:nth-child(3n+12)').css({"left": "780px"});
-      $('section#portfolio .row.portfolio-container div.portfolio-item:nth-child(n+10)').show('slide');
-      $('#readMore').hide('slide');
-      $('#readLess').show('slide');
-    });
-
-
-    $("#readLess").click(function () {
-      // $('section#portfolio .row.portfolio-container div.portfolio-item:nth-child(n+10)').css('display','block');
-      $('section#portfolio .row.portfolio-container').addClass('portfolio-height');
-      $('section#portfolio .row.portfolio-container div.portfolio-item:nth-child(n+10)').hide('slide');
-      $('#readLess').hide('slide');
-      $('#readMore').show('slide');
-    });
-
-    $("ul#portfolio-flters li").click(function () {
-      $('section#portfolio .row.portfolio-container').removeClass('portfolio-height');
-      $('section#portfolio .row.portfolio-container div.portfolio-item:nth-child(n+10)').show('slide');
-      $('section#portfolio .row.portfolio-container div.portfolio-item:nth-child(n+10):nth-child(-n+13)').css({"top": "756px"});
-      $('section#portfolio .row.portfolio-container div.portfolio-item:nth-child(n+13):nth-child(-n+15)').css({"top": "1020px"});
-      $('section#portfolio .row.portfolio-container div.portfolio-item:nth-child(n+16):nth-child(-n+18)').css({"top": "1275px"});
-      $('section#portfolio .row.portfolio-container div.portfolio-item:nth-child(n+19):nth-child(-n+22)').css({"top": "1530px"});
-      $('section#portfolio .row.portfolio-container div.portfolio-item:nth-child(n+22):nth-child(-n+25)').css({"top": "1785px"});
-      $('section#portfolio .row.portfolio-container div.portfolio-item:nth-child(n+25):nth-child(-n+28)').css({"top": "2040px"});
-      $('section#portfolio .row.portfolio-container div.portfolio-item:nth-child(n+28):nth-child(-n+31)').css({"top": "2295px"});
-      $('section#portfolio .row.portfolio-container div.portfolio-item:nth-child(n+31):nth-child(-n+34)').css({"top": "2550px"});
-      $('section#portfolio .row.portfolio-container div.portfolio-item:nth-child(3n+10)').css({"left": "0px"});
-      $('section#portfolio .row.portfolio-container div.portfolio-item:nth-child(3n+11)').css({"left": "380px"});
-      $('section#portfolio .row.portfolio-container div.portfolio-item:nth-child(3n+12)').css({"left": "780px"});
-    });
-    
-  });
-
-
 // portfolio section
-
-///
-///
-///
-///
-///
-//
-//
-///
-///
-//
-//
-//
-//
 
 
 $(document).ready( function() {
