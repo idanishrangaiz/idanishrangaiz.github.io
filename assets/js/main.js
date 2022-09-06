@@ -319,7 +319,7 @@ $('.filter-button-group').on( 'click', 'li', function() {
   $('.filter-button-group li').removeClass('active');
   $(this).addClass('active');
 });
-    })
+   
   
 
  $(document).ready( function() {   
@@ -331,7 +331,7 @@ $('.isotope-pager').on( 'click', 'a', function() {
   $('.isotope-pager a').removeClass('active');
   $(this).addClass('active');
 });
-    })
+   
   
 
 $(document).ready(function(){
@@ -345,7 +345,7 @@ $('.popupimg').magnificPopup({
   zoom: {
     enabled: true, 
 
-    duration: 100, // duration of the effect, in milliseconds
+    duration: 300, // duration of the effect, in milliseconds
     easing: 'ease-in-out', // CSS transition easing function
 
     opener: function(openerElement) {
@@ -354,7 +354,7 @@ $('.popupimg').magnificPopup({
   }
 }
 
-);
+});
 
 });
 
