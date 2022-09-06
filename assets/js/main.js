@@ -170,8 +170,6 @@
     easing: "ease-in-out-back"
   });
 
-})(jQuery);
-
 // NEW JQUERY FOR portfolio section  // NEW JQUERY FOR portfolio section  // NEW JQUERY FOR portfolio section  ///
 
 
@@ -319,7 +317,7 @@ $('.filter-button-group').on( 'click', 'li', function() {
   $('.filter-button-group li').removeClass('active');
   $(this).addClass('active');
 });
-   
+    });
   
 
  $(document).ready( function() {   
@@ -331,7 +329,7 @@ $('.isotope-pager').on( 'click', 'a', function() {
   $('.isotope-pager a').removeClass('active');
   $(this).addClass('active');
 });
-   
+    });
   
 
 $(document).ready(function(){
@@ -359,6 +357,5 @@ $('.popupimg').magnificPopup({
 });
 
 
-// END  JQUERY FOR portfolio section  // END JQUERY FOR portfolio section  // END JQUERY FOR portfolio section  ///
-
+})(jQuery);
 
