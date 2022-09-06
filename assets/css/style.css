@@ -1264,7 +1264,7 @@ div.isotope-pager{
 
 .isotope-pager a:hover{
   color: #333 !important;
-  /*border: .5px solid #ffeeac;*/
+  border: .5px solid #fff;
   box-shadow: -1px 1px 10px 3px rgba(0,0,0,.1);
   background-color: #fff;
 }
