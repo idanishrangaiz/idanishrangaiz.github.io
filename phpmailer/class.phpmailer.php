@@ -3088,7 +3088,7 @@ class PHPMailer
      * Add an embedded stringified attachment.
      * This can include images, sounds, and just about any other document type.
      * Be sure to set the $type to an image type for images:
-     * JPEG images use 'image/jpeg', GIF uses 'image/gif', PNG uses 'image/png'.
+     * JPEG images use 'image/jpeg', GIF uses 'image/gif', webp uses 'image/webp'.
      * @param string $string The attachment binary data.
      * @param string $cid Content ID of the attachment; Use this to reference
      *        the content when using an embedded image in HTML.
@@ -3408,8 +3408,8 @@ class PHPMailer
      * Automatically inlines images and creates a plain-text version by converting the HTML,
      * overwriting any existing values in Body and AltBody.
      * Do not source $message content from user input!
-     * $basedir is prepended when handling relative URLs, e.g. <img src="/images/a.png"> and must not be empty
-     * will look for an image file in $basedir/images/a.png and convert it to inline.
+     * $basedir is prepended when handling relative URLs, e.g. <img src="/images/a.webp"> and must not be empty
+     * will look for an image file in $basedir/images/a.webp and convert it to inline.
      * If you don't provide a $basedir, relative paths will be left untouched (and thus probably break in email)
      * If you don't want to apply these transformations to your HTML, just set Body and AltBody directly.
      * @access public
@@ -3608,7 +3608,7 @@ class PHPMailer
             'jpeg'  => 'image/jpeg',
             'jpe'   => 'image/jpeg',
             'jpg'   => 'image/jpeg',
-            'png'   => 'image/png',
+            'webp'   => 'image/webp',
             'tiff'  => 'image/tiff',
             'tif'   => 'image/tiff',
             'eml'   => 'message/rfc822',

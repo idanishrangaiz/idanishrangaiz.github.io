@@ -167,7 +167,7 @@ return jQueryBridget;
     // AMD - RequireJS
     define( 'ev-emitter/ev-emitter',factory );
   } else if ( typeof module == 'object' && module.exports ) {
-    // CommonJS - Browserify, Webpack
+    // CommonJS - Browserify, webpack
     module.exports = factory();
   } else {
     // Browser globals
@@ -785,7 +785,7 @@ return utils;
       factory
     );
   } else if ( typeof module == 'object' && module.exports ) {
-    // CommonJS - Browserify, Webpack
+    // CommonJS - Browserify, webpack
     module.exports = factory(
       require('ev-emitter'),
       require('get-size')
@@ -1347,7 +1347,7 @@ return Item;
       }
     );
   } else if ( typeof module == 'object' && module.exports ) {
-    // CommonJS - Browserify, Webpack
+    // CommonJS - Browserify, webpack
     module.exports = factory(
       window,
       require('ev-emitter'),
