@@ -173,8 +173,8 @@
 // NEW JQUERY FOR portfolio section  // NEW JQUERY FOR portfolio section  // NEW JQUERY FOR portfolio section  ///
 
 
-$(document).ready( function() {
 
+$(document).ready(function ($) {
   var itemSelector = '.grid-item'; 
 
   var $container = $('#container').isotope({
