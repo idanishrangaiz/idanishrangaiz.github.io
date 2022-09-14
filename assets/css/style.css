@@ -1396,3 +1396,25 @@ i.bx.bx-cloud-download {
   top: 3px;
 }
 
+@media (min-width: 0px) and (max-width: 767px){
+  /* a#dwnld-btn {
+    margin: 0;
+} */
+#hero .hero-container { 
+  padding: 0 15px;
+}
+
+a#hire-btn{
+  padding: 9px;
+  font-size: 14px;
+ 
+}
+   a#dwnld-btn {
+  margin-left: 20px;
+  font-size: 14px;
+  padding: 11px;
+
+}
+
+
+  }
