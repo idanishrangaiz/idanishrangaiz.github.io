@@ -1359,3 +1359,40 @@ div.isotope-pager{
     width: 88% !important;
       }
     }
+    .btn-cls a {
+      color: #fff;
+  }
+
+  a#hire-btn{
+    background: #436194b3;
+    padding: 10px;
+    border-radius: 8px;
+    font-family: revert;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  a#hire-btn:hover{
+    background: #4f9eae;
+     }
+
+     
+    a#dwnld-btn {
+      margin-left: 25px;
+      background: rgb(0 0 0 / 28%);
+      padding: 10px;
+      border-radius: 8px;
+      font-family: 'Raleway';
+      font-size: 18px;
+      font-weight: 500;
+  }
+  a#dwnld-btn:hover {
+    background: #4f9eae;
+}
+
+i.bx.bx-cloud-download {
+  margin-left: 10px;
+  font-size: 22px;
+  position: relative;
+  top: 3px;
+}
+
