@@ -135,6 +135,16 @@ h1, h2, h3, h4, h5, h6 {
 /* Desktop Navigation */
 .nav-menu {
   padding-top: 30px;
+  /* position: fixed;
+  top: 263px;
+  left: 0;
+  bottom: 75px;
+  width: 300px;
+  z-index: 9997;
+  transition: all 0.5s;
+  padding: 0 15px;
+  background: #040b14;
+  overflow-y: auto; */
 }
 
 .nav-menu * {
